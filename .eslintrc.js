@@ -10,7 +10,6 @@ module.exports = {
     jsx: true
   },
   rules: {
-    'react/display-name': 1,
     'react/sort-comp': 1
   }
 };

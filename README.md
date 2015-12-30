@@ -6,5 +6,12 @@
 - Sass
 - Image files
 
+## How to use
+```
+npm install
+npm start
+# visit http://localhost:3000
+```
+
 ### Credit:
 - inspired by [Getting started with webpack and React, ES6 style](http://humaan.com/getting-started-with-webpack-and-react-es6-style/) article on the Humaan blog

@@ -16,15 +16,15 @@ module.exports = {
     // a list of loaders: https://webpack.github.io/docs/list-of-loaders.html
     loaders: [
 
-      // transforms JSX and ES6+ into normal js files
+      // transforms JSX and ES6(ES2015) into normal js files
       // use babel-loader for all *.js and *.jsx files
-      // using three presets: react, es2015, stage-0
+      // using two presets: react, es2015
       // https://babeljs.io/docs/plugins/
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loaders: [
-          'babel?presets[]=stage-0,presets[]=react,presets[]=es2015'
+          'babel?presets[]=react,presets[]=es2015'
         ]
       },
 

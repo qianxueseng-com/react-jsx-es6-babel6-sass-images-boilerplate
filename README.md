@@ -13,5 +13,12 @@ npm start
 # visit http://localhost:3000
 ```
 
+### FAQ:
+#### No React hot loader?
+It is being [deprecated](https://github.com/gaearon/react-hot-loader).
+
+#### No ES7 and above?
+ES6 / ES2015 is [finalized](http://www.ecma-international.org/publications/standards/Ecma-262.htm), but ES7 and above are not.
+
 ### Credit:
 - inspired by [Getting started with webpack and React, ES6 style](http://humaan.com/getting-started-with-webpack-and-react-es6-style/) article on the Humaan blog
